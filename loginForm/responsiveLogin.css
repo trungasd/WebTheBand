@@ -1,0 +1,39 @@
+﻿/* PC */
+@media (min-width: 1024px) {
+
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+
+}
+
+@media (max-width: 740px) {
+
+    .container .auth {
+        margin-top: 45px;
+        text-align: -webkit-center;
+        padding: 100px;
+        padding-top: 150px;
+    }
+
+
+    .footer__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-grid__column-12 {
+        width: 50%;
+    }
+
+    .footer__text {
+        font-size: 0.8rem;
+    }
+
+
+    .grid.wide {
+        padding: 0 20px;
+    }
+}

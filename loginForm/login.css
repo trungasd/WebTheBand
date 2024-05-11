@@ -1,0 +1,257 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+/* Định dạng header */
+.nameshop {
+    color: #000;
+    display: flex;
+    background-color: #ccc;
+    width: 100%;
+    height: 35px;
+    padding: 10px 0;
+    margin-top: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    font-size: 1.3rem;
+    font-family: emoji;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 4px solid #000;
+}
+
+
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 54px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.9);
+}
+
+#nav {
+    display: inline-block;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+    #nav li {
+        position: relative
+    }
+
+    #nav > li {
+        display: inline-block;
+    }
+
+
+        #nav > li > a {
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+    #nav li a {
+        text-decoration: none;
+        line-height: 46px;
+        padding: 0 24px;
+        display: block;
+    }
+
+    #nav .subnav li:hover a,
+    #nav > li:hover > a {
+        color: #000;
+        background-color: #ccc;
+    }
+
+    #nav li:hover .subnav {
+        display: block;
+    }
+
+    #nav .subnav a {
+        color: #000;
+    }
+
+    #nav .nav-ti-down {
+        font-size: 14px;
+    }
+
+#header .header_user {
+    display: flex;
+    float: right;
+    margin: 0;
+}
+
+.header_user .header_user-login, .header_user-regiter {
+    line-height: 46px;
+    padding: 0 24px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background: #000;
+    border: none;
+    font-size: 1rem;
+}
+
+.header_user-login:hover {
+    background: #ccc;
+    color: #000;
+}
+
+.header_user-regiter:hover {
+    background: #ccc;
+    color: #000;
+}
+
+.container {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+}
+
+    .container .auth {
+        margin-top: 45px;
+        text-align: -webkit-center;
+        padding: 100px;
+    }
+
+
+    .container .form_login {
+        width: 460px;
+        height: 315px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    }
+
+
+/* Thiết lập style cho tiêu đề */
+h2 {
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+
+.auth_form {
+    padding: 0 32px;
+}
+
+    .auth_form .input {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+        .auth_form .input:focus {
+            outline: none;
+            border-left: none;
+            border-top: none;
+            border-right: none;
+        }
+
+    .auth_form .btnlogin {
+        font-size: 1rem;
+        width: 100%;
+        background-color: #111;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        margin-top: 18px;
+    }
+
+        .auth_form .btnlogin:hover {
+            background-color: #888;
+            color: #fff;
+        }
+
+/*footer*/
+
+
+.footer {
+    padding-top: 16px;
+    border-top: 4px solid #000;
+}
+
+.grid {
+    display: block;
+    padding: 0;
+}
+
+    .grid.wide {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+.footer__content {
+    display: flex;
+    width: 100%;
+}
+
+.footer-grid__column-12 {
+    width: 25%;
+}
+
+.footer__heading {
+    font-size: 1.2rem;
+    color: #000;
+    margin: 18px 0;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+    .footer-item a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1rem;
+        color: #737373;
+    }
+
+        .footer-item a:hover {
+            color: #000;
+        }
+
+.footer-logo {
+    background-image: url('../main/imges/momo_logo.png');
+}
+
+.footer-item__icon-link {
+    padding-right: 4px;
+}
+
+.footer__license {
+    background-color: #000;
+    padding: 8px 0;
+    margin-top: 36px;
+}
+
+.footer__text {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+
+

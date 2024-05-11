@@ -1,0 +1,65 @@
+﻿/* PC */
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (max-width: 740px) {
+
+    .container .form_admin {
+        width: 480px;
+        height: 408px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .auth_form {
+        padding: 0 32px;
+        display: block;
+    }
+
+        .auth_form .input {
+            margin-top: 8px;
+        }
+
+    .auth_form-btn{
+        padding-top: 20px;
+    }
+
+
+    .auth_form .btnadd {
+        font-size: 1rem;
+        width: 133px;
+        background-color: #111;
+        color: #fff;
+        border: none;
+        padding: 8px;
+        margin-top: 1px;
+    }
+
+
+    .container .auth {
+        padding-top: 150px;
+    }
+
+
+    .footer__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-grid__column-12 {
+        width: 50%;
+    }
+
+    .footer__text {
+        font-size: 0.8rem;
+    }
+
+
+    .grid.wide {
+        padding: 0 20px;
+    }
+}

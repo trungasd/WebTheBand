@@ -1,0 +1,144 @@
+﻿/* PC */
+@media (min-width: 1024px) {
+    #nav li a {
+        font-size: 1rem;
+    }
+
+    .mobile-menu-btn {
+        display: none
+    }
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #body {
+        background-color: #f5f5f5;
+        margin: 0;
+    }
+
+    .mobile-menu-btn {
+        display: none
+    }
+
+    #nav li a {
+        text-decoration: none;
+        line-height: 46px;
+        padding: 0px 12px;
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .header_user-login {
+        font-size: 0.8rem;
+    }
+
+    .header_user-regiter {
+        font-size: 0.8rem;
+    }
+
+    .header_user .header_user-login, .header_user-regiter {
+        line-height: 46px;
+        padding: 0 12px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        background: #000;
+        border: none;
+    }
+
+    #slider {
+        position: relative;
+        margin-top: 100px;
+        padding-top: 50%;
+        background: url(imges/img_header.jpg);
+        background-size: cover;
+    }
+
+
+    .body_guitar .grid__column-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 33.33333%;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 100%; */
+    }
+
+    .footer-grid__column-12 {
+        width: 50%;
+        /* padding: 0 20px 0 20px; */
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+
+    .footer__text {
+        font-size: 0.8rem;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+/* Mobile  */
+@media (max-width: 740px) {
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+#slider {
+    margin-top: 44px;
+}
+
+    #nav {
+        display: none;
+        margin-top: 40px;
+    }
+
+    #nav > li {
+        display: block;
+        background-color: #000;
+    }
+
+    .mobile-menu-btn {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .ti-menu {
+        margin: 10px;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+
+    .body_guitar .grid__column-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 50%;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .footer__text {
+        font-size: 0.7rem;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+}
